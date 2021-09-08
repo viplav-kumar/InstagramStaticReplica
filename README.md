@@ -13,31 +13,35 @@ the replica of UI of popular social media platform Instagram.
 
 3.) OPERATING INSTRUCTION     :   
 
-           In order to access via the github page of this project --> Go to the address bar of browser and give URL as   
+            In order to access via the github page of this project --> Go to the address bar of browser and give URL as   
             --> https://viplav-kumar.github.io/InstagramStaticReplica/
+ 
             In case it doesn't open :
+
                 --> you can try with clearing your browser cookies OR
+
                 --> try with different browser OR
+
                 --> you can open the given url in incognito mode in any browser.
                                       
 4.) FILE MANIFEST             :   
-                                  
-                                  i.) assets folder containing all required images.
 
-                                  ii.) css folder having .css file used for styling.
-                                  
-                                  iii.) index.html file in root directory.
+            i.) assets folder containing all required images.
+
+            ii.) css folder having .css file used for styling.
+
+            iii.) index.html file in root directory.
                                   
 5.) KNOWN BUGS                :   
 
-                                  i.) Non-uniform spacing betweens different user stories.
+            i.) Non-uniform spacing betweens different user stories.
 
 6.) CONTACT INFORMATION       :   
 
-                                  EMAIL ID : thakurviplav88@gmail.com
+            EMAIL ID : thakurviplav88@gmail.com
                                   
 7.) CLONING REPO              :   
      
-                                  If you want to compile it yourself, here's how:
+            If you want to compile it yourself, here's how:
 
-                                  $ git clone git@github.com:viplav-kumar/InstagramStaticReplica.git
+            $ git clone git@github.com:viplav-kumar/InstagramStaticReplica.git
