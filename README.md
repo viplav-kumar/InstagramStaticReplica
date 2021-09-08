@@ -40,4 +40,4 @@ the replica of UI of popular social media platform Instagram.
      
                                   If you want to compile it yourself, here's how:
 
-                                  $ git clone git@github.com:twilio/twilio-java
+                                  $ git clone git@github.com:viplav-kumar/InstagramStaticReplica.git
