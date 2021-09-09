@@ -13,8 +13,8 @@ the replica of UI of popular social media platform Instagram.
 
 3.) OPERATING INSTRUCTION     :   
 
-            In order to access via the github page of this project --> Go to the address bar of browser and give URL as   
-            --> https://viplav-kumar.github.io/InstagramStaticReplica/
+            In order to access via the github page of this project --> Go to the address bar of browser 
+            and give URL as  --> https://viplav-kumar.github.io/InstagramStaticReplica/
  
             In case it doesn't open :
 
