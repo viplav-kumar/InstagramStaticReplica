@@ -16,7 +16,7 @@ the replica of UI of popular social media platform Instagram.
             In order to access via the github page of this project --> Go to the address bar of browser 
             and give URL as  --> https://viplav-kumar.github.io/InstagramStaticReplica/
             
-            ** Open above provided link in your mobile phones for better Instagram experience or you can 
+          * Open above provided link in your mobile phones for better Instagram experience or you can 
             open in your pc browser and then select the mobile version by inspecting the page 
             (Shortcut --> ctrl + shift + i ---> ctrl + shift + m).
  
