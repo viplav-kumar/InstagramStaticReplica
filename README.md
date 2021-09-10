@@ -5,7 +5,7 @@ This is a static replica (without functionality) of Instagram and despite being 
 As HTML and CSS are building blocks of UI of any website, purpose of this project was to demonstrate the functionality and application of HTML5 & CSS3 by creating 
 the replica of UI of popular social media platform Instagram.
 
-**In this Project u'll get to see the home page of instagram with multiple post, stories, all non-functional navigations and buttons. You can scroll down to the last                 post and slide right to the last story.**
+**In this Project u'll get to see the home page of instagram with multiple post, stories, all non-functional navigations and buttons except messenger button which is functional. You can scroll down to the last  post, slide right to the last story and even navigate to messenger/chat-box page on clicking to messenger icon on home page (at top right corner).**
 
 1.) CONFIGURATION INSTRUCTION :   Not Required.
 
@@ -39,6 +39,7 @@ the replica of UI of popular social media platform Instagram.
 5.) KNOWN BUGS                :   
 
             i.) Non-uniform spacing betweens different user stories.
+            ii.) Placeholder of search bar in chat-box page is not alligned properly.
 
 6.) CONTACT INFORMATION       :   
 
