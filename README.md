@@ -34,12 +34,12 @@ the replica of UI of popular social media platform Instagram.
 
             ii.) css folder having .css file used for styling.
 
-            iii.) index.html file in root directory.
+            iii.) index.html and inbox.html files are in root directory.
                                   
 5.) KNOWN BUGS                :   
 
             i.) Non-uniform spacing betweens different user stories.
-            
+
             ii.) Placeholder of search bar in chat-box page is not alligned properly.
 
 6.) CONTACT INFORMATION       :   
