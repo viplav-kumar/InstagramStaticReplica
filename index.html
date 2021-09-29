@@ -3,32 +3,41 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" type="image/png" href="https://www.freepnglogos.com/uploads/instagram-logos-png-images-free-download-2.png"/>
-    <link rel="stylesheet" href="./css/styles.css">
     <title>Instagram</title>
     <style>
         body {
             margin: 0;
             padding: 0;
-            overflow: hidden;
         }
 
-        img {
-            display: block; 
-            margin: auto;
+        .logo {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
 
-        @media only screen and (max-width: 600px) {
-            img {
-                display: block; 
-                margin: auto;
-            }
+        .insta-logo > img{
+            height: 5rem;
+            margin-top: 14rem;
+        }
+
+        .from-facebook > img{
+            height: 5rem;
+            margin-top: 15rem;
         }
     </style>
 </head>
 <body>
-    <img src="./assets/Instagram_Welcome_Page_Light.jpg" alt="Instagram By Facebook">
+    <div class="logo">
+        <div class="insta-logo">
+            <img src="./assets/insta-logo1.png" alt="Instagram-Logo">
+        </div>
+        <div class="from-facebook">
+            <img src="./assets/instagram-from-facebook.png" alt="Instagram-From-Facebook">
+        </div>
+    </div>
     <script>
         setTimeout(function(){
             window.location.href = "home.html";
