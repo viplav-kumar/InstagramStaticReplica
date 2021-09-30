@@ -116,7 +116,7 @@ body {
 
 .user-info > .username {
     margin-left: 10px;
-    font-weight: 515;
+    font-weight: bold;
 }
 
 .post-options {
@@ -150,7 +150,7 @@ body {
 }
 
 .post-info .username {
-    font-weight: bolder;
+    font-weight: bold;
     margin-right: 5px;
 }
 
