@@ -384,13 +384,14 @@
         </article>
     </main>
     <footer class="footer">
-        <img src="./assets/home.jpeg" alt="home-logo" class="footer-action">
+        <img src="./assets/home.jpeg" alt="home-logo" class="footer-action home">
         <img src="./assets/search.jpeg" alt="search-logo" class="footer-action">
         <img src="./assets/reels.jpeg" alt="reels-logo" class="footer-action">
         <img src="./assets/like.jpeg" alt="activity-logo" class="footer-action">
         <img src="./assets/viplav.jpg" alt="dp" class="user-dp self custom-user-dp">
     </footer>
     <script>
+
         let likeBtns = document.getElementsByClassName("like");
         let i;
         for(i=0; i<likeBtns.length; i++){
@@ -406,6 +407,13 @@
                 this.classList.add("liked");
             }
         }
+
+        document.getElementsByClassName("home")[0].addEventListener('click', scrollToTop);
+        function scrollToTop(){
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        
     </script>
 </body>
 </html>
