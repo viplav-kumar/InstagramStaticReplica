@@ -48,19 +48,22 @@ body {
 
 .input-field {
     margin: 14px;
+    height: 32px;
     background-color: rgb(235, 230, 230);
-    border-radius: 12px;
+    border-radius: 10px;
     display: flex;
+    align-items: center;
 }
 
 .search-logo {
-    height: 25px;
+    height: 24px;
     padding-top: 2px;
     padding-left: 15px;
 }
 
 .search {
-    padding-top: 4px;
+    height: 24px;
+    padding-top: 3px;
     color: rgb(165, 162, 162);
     padding-left: 15px;
     
