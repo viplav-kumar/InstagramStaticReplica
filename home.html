@@ -391,6 +391,21 @@
         <img src="./assets/viplav.jpg" alt="dp" class="user-dp self custom-user-dp">
     </footer>
     <script>
+        let likeBtns = document.getElementsByClassName("like");
+        let i;
+        for(i=0; i<likeBtns.length; i++){
+            likeBtns[i].addEventListener('click', changeLikeBtnImage);
+        }
+
+        function changeLikeBtnImage(){
+            if(this.classList.contains("liked")){
+                this.classList.remove("liked");
+                this.src="./assets/like.jpeg";
+            }else{
+                this.src="./assets/red-heart.png";
+                this.classList.add("liked");
+            }
+        }
     </script>
 </body>
 </html>

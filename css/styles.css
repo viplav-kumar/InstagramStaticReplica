@@ -145,6 +145,12 @@ body {
     height: 42px;
 }
 
+.liked {
+    height: 28px;
+    padding-bottom: 5px;
+    padding-left: 3px;
+}
+
 .share {
     padding-bottom: 4px;
 }
