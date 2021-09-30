@@ -141,6 +141,14 @@ body {
     cursor: pointer;
 }
 
+.like {
+    height: 42px;
+}
+
+.share {
+    padding-bottom: 4px;
+}
+
 .post-info p {
     margin: 5px 8px 5px 9px;
 }
