@@ -23,8 +23,9 @@ body {
 }
 
 .header-left > a > img {
-    height: 35px;
+    height: 29px;
     margin-right: 30px;
+    margin-top: 4px;
 }
 
 .header-right {
@@ -32,12 +33,12 @@ body {
 }
 
 .header-right > img {
-    height: 35px;
+    height: 29px;
     margin-left: 25px;
 }
 
 .header-right > .create-message {
-    height: 33px;
+    height: 27px;
     margin-bottom: 3px;
 }
 
