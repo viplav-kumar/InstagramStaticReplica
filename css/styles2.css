@@ -47,18 +47,20 @@ body {
 }
 
 .input-field {
-    margin: 15px;
+    margin: 14px;
     background-color: rgb(235, 230, 230);
     border-radius: 12px;
+    display: flex;
 }
 
 .search-logo {
     height: 25px;
-    padding-top: 6px;
+    padding-top: 2px;
     padding-left: 15px;
 }
 
 .search {
+    padding-top: 4px;
     color: rgb(165, 162, 162);
     padding-left: 15px;
     
