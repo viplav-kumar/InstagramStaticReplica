@@ -105,12 +105,15 @@
     <script>
 
         let likeBtns = document.getElementsByClassName("like");
+        let postImages = document.getElementsByClassName("post-image");
         let i;
+
         for(i=0; i<likeBtns.length; i++){
-            likeBtns[i].addEventListener('click', changeLikeBtnImage);
+            likeBtns[i].addEventListener('click', changeLikeBtnImage1);
+            postImages[i].addEventListener("dblclick", changeLikeBtnImage2);
         }
 
-        function changeLikeBtnImage(){
+        function changeLikeBtnImage1(){
             let likesCountEl = this.parentElement.parentElement.parentElement.lastChild.firstChild.firstChild;
             let likesCount = parseInt(likesCountEl.textContent);
             if(this.classList.contains("liked")){
@@ -120,6 +123,22 @@
             }else{
                 this.src="./assets/red-heart.png";
                 this.classList.add("liked");
+                likesCount++;
+            }
+            likesCountEl.textContent = likesCount;
+        }
+
+        function changeLikeBtnImage2(){
+            let likesCountEl = this.nextSibling.nextSibling.firstChild.firstChild;
+            let likeBtn = this.nextSibling.firstChild.firstChild;
+            let likesCount = parseInt(likesCountEl.textContent);
+            if(likeBtn.classList.contains("liked")){
+                likeBtn.classList.remove("liked");
+                likeBtn.src="./assets/like.jpeg";
+                likesCount--;
+            }else{
+                likeBtn.src="./assets/red-heart.png";
+                likeBtn.classList.add("liked");
                 likesCount++;
             }
             likesCountEl.textContent = likesCount;
