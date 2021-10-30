@@ -1,4 +1,4 @@
-# InstagramStaticReplica
+# Instagram Static Replica
 ABOUT PROJECT : 
 
 This is a static replica (without functionality) of Instagram and despite being static page you'll almost get the actual Instagram experience from the UI.
